@@ -1,15 +1,11 @@
-/* .container{
-
-} */
-.EnrolledTitle {
+.enrolledTitle {
     color: #800080;
-    /* background-color: #626262; */
     font-weight: 600;
     font-size: 20px;
     padding-top: 79px;
 }
 
-.EnrolledTitle>span {
+.Titlespan {
     color: #626262;
     font-weight: 400;
 }
@@ -18,8 +14,9 @@
     gap: 20px;
 
 }
+/* --------------   responstiveness   ------------ */
 @media only screen and (max-width: 800px) {
-    .EnrolledTitle {
+    .enrolledTitle {
         margin-left: 20px;
     }
     .detailContain{

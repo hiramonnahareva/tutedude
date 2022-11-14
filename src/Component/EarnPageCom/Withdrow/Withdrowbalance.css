@@ -1,0 +1,82 @@
+.Withdrowbalance {
+    display: flex;
+    gap: 93px;
+}
+
+.left {
+    width: 486px;
+    height: 188px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.referralContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.referralAmount>p {
+    color: #800080;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.referralAmount>h4 {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+
+.withdrawbtn {
+    background: #800080;
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+.withdrawbtnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.referralCode {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    line-height: 36px;
+    color: #800080;
+}
+
+.code {
+    color: #800080;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+/* --------------   responstiveness   ------------ */
+@media only screen and (max-width: 800px) {
+    .Withdrowbalance {
+        display: flex;
+        flex-direction: column;
+        gap: 93px;
+    }
+    .left {
+        width: 350px;
+        height: 188px;
+    
+        background: #FFFFFF;
+        box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+    .referralContainer {
+        padding-left: 20px;
+    }
+    .withdrawbtnContainer {
+        margin-top: 30px;
+    }
+  }

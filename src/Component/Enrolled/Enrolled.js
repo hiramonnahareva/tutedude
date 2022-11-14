@@ -61,7 +61,7 @@ const Enrolled = () => {
     ]
     return (
         <div className='container'>
-            <p className='EnrolledTitle'>Friends who enrolled <span>(3)</span></p>
+            <p className='enrolledTitle'>Friends who enrolled <span className='Titlespan'>(3)</span></p>
             <div className="detailContain">
             {
                 details.map(information => <Details key={information._id} information={information}></Details>)

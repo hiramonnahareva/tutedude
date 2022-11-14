@@ -1,7 +1,4 @@
 .categories{
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 8px; */
     display: grid;
     gap: 8px;
     grid-template-columns: repeat(3, 1fr);

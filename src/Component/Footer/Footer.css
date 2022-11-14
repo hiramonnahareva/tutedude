@@ -1,6 +1,7 @@
 .footerTitle{
     color: #800080;
 }
+/* --------------   responstiveness   ------------ */
 @media only screen and (max-width: 800px) {
     .footerTitle{
         margin-left: 20px;

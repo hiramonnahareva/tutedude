@@ -7,10 +7,16 @@
 .Pages{
   width: 1366px;
 }
+.container{
+  margin: 0 187px;
+}
 @media only screen and (max-width: 800px) {
   .Pages{
   width: 800px;
   }
+  .container{
+    margin: 25px;
+}
 }
 /* @media only screen and (max-width: 800px) {
   .Pages{

@@ -18,8 +18,6 @@
     width: 104px;
     height: 228px;
     right: 0px;
-    /* top: 370px; */
-
     background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%);
     border-radius: 0px 20px 20px 0px;
 }
@@ -30,11 +28,6 @@
     color: #ffffff;
     
 }
-/* .date{
-    position: absolute;
-    right: 10px;
-    top: 20px;
-} */
 .top-part {
     display: flex;
     gap: 90px;
@@ -73,6 +66,7 @@
     font-size: 20px;
     margin-left: 10px;
 }
+/* --------------   responstiveness   ------------ */
 @media only screen and (max-width: 800px) {
     .details {
         margin-left: 15px;
