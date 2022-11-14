@@ -7,6 +7,13 @@
     
      height: 40px;
 }
+.goBack{
+    display: none;
+}
+.leftArrow{
+    margin-right: 5px;
+    font-size: 30px;
+}
 .refrred-container{
     height: 76px;
     display: flex;
@@ -41,3 +48,31 @@
     font-size: 16px; 
     margin: 0 20px;
 }
+@media only screen and (max-width: 800px) {
+    .detailContain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        margin: 20px;
+    }
+    .UIUX{
+        margin-left: 20px;
+    }
+    .goBack{
+        color: #800080;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .Left-tham{
+        margin-left: 20px;
+    }
+    .right-tham{
+        margin-top: 20px;
+    }
+  }

@@ -15,6 +15,7 @@ const NavBar = () => {
                 <span className='ChatWithMentor'>Chat With Mentor</span>
                 <span className='ProfileName'><CgProfile className='Profile'/> ProfileName <RiArrowDownSLine className='arrow'/></span>
                 </div>
+                <span className='MobileviewProfile'>ProfileName <RiArrowDownSLine className='arrow'/></span>
         </div>
     );
 };

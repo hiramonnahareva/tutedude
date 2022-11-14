@@ -26,19 +26,30 @@
 
 .infoContainer {
     position: absolute;
-    /* top: 10px; */
     padding: 20px;
     color: #ffffff;
+    
 }
-
+/* .date{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+} */
 .top-part {
     display: flex;
-    gap: 60px;
+    gap: 90px;
+}
+.info{
+    position: absolute;
+    right: 20px;
 }
 
 .infoTitle {
     font-size: 16px;
     font-weight: 700;
+}
+.KumarInfo{
+    display: none;
 }
 
 .part-2 {
@@ -51,9 +62,32 @@
     margin-left: 20px;
     color: #ffffff;
 }
+.date{
+    color: #ffffff;
+    padding-top: 20px;
+    margin-left: 20px;
+}
 
 .amount {
     font-weight: 600;
     font-size: 20px;
     margin-left: 10px;
 }
+@media only screen and (max-width: 800px) {
+    .details {
+        margin-left: 15px;
+    }
+    .KumarInfo{
+        display: flex;
+        right: 20px;
+        position: absolute;
+    }
+    .detailsOFKumar{
+        width: 358px;
+        background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    }
+    #details {
+       display: none;
+    }
+   
+  }

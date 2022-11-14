@@ -1,11 +1,13 @@
 import React from 'react';
 import './Referred.css';
-import { RiArrowRightSLine } from 'react-icons/ri';
+import { RiArrowRightSLine } from 'react-icons/ri'; 
+import { BiLeftArrowAlt } from 'react-icons/bi'; 
 
 const Referred = () => {
     return (
         <div className='container'>
             <p className='UIUX'>UI/UX <RiArrowRightSLine/> Refer & Earn <RiArrowRightSLine/> Friends Referred</p>
+            <div className='goBack'> <BiLeftArrowAlt className='leftArrow'/>go back</div>
         <div className='refrred-container'>
         <div className='Left-tham'>
             <p className='referral'>Your Referral Code</p>

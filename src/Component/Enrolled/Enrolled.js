@@ -5,6 +5,7 @@ import './Enrolled.css'
 const Enrolled = () => {
     const details = [
         {
+           _id: 1,
            title: "Dhiraj Saxsena",
            date: "14 Sep, 2022",
            info: "Courses Enrolled(6)",
@@ -21,6 +22,7 @@ const Enrolled = () => {
            amount: "₹185"
         },
         {
+           _id: 2,
            title: "Subhash Mishra",
            date: "15 Sep, 2022",
            info: "Courses Enrolled(23)",
@@ -38,7 +40,9 @@ const Enrolled = () => {
            amount: "₹485"
         },
         {
+           _id: 3,
            title: "Prafull Kumar",
+           KumarDate: "16 Sep, 2022",
            info: "Courses Enrolled(23)",
            categories: {
             uiux:"UI/UX",
@@ -52,6 +56,7 @@ const Enrolled = () => {
            id: "details",
            Referral: "Referral Amount",
            amount: "₹485"
+           
         }
     ]
     return (
@@ -59,7 +64,7 @@ const Enrolled = () => {
             <p className='EnrolledTitle'>Friends who enrolled <span>(3)</span></p>
             <div className="detailContain">
             {
-                details.map(information => <Details information={information}></Details>)
+                details.map(information => <Details key={information._id} information={information}></Details>)
             }
             </div>
         </div>
