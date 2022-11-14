@@ -1,0 +1,59 @@
+.details {
+    position: relative;
+    width: 358px;
+    height: 228px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+}
+
+.detailsOFKumar {
+    width: 240px;
+    height: 228px;
+    background: linear-gradient(270deg, #ae136b 0%, #FF864C 100%);
+    border-radius: 20px;
+}
+
+#details {
+    position: absolute;
+    width: 104px;
+    height: 228px;
+    right: 0px;
+    /* top: 370px; */
+
+    background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.infoContainer {
+    position: absolute;
+    /* top: 10px; */
+    padding: 20px;
+    color: #ffffff;
+}
+
+.top-part {
+    display: flex;
+    gap: 60px;
+}
+
+.infoTitle {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.part-2 {
+    padding-top: 10px;
+}
+
+.bottomPart {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.amount {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+}
