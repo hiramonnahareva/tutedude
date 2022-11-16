@@ -8,7 +8,7 @@ const FriendsReferred = () => {
         <div>
             <Referred />
             <Enrolled />
-            <Footer />
+            <Footer title2={'Terms & Conditions'} />
         </div>
     );
 };

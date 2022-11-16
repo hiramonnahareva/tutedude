@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Title = () => {
     return (
         <div className='container'>
-            <p className='UIUX'>UI/UX <RiArrowRightSLine/> <Link to="/Refer&Earn">Refer & Earn</Link></p>
+            <p className='UIUX'>UI/UX <RiArrowRightSLine/> <Link className='link' to="/Refer&Earn">Refer & Earn</Link></p>
         </div>
     );
 };

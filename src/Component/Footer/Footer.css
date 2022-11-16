@@ -1,5 +1,9 @@
 .footerTitle{
     color: #800080;
+    margin-top: 40px;
+}
+.footerTitle2{
+    color: #800080;
 }
 /* --------------   responstiveness   ------------ */
 @media only screen and (max-width: 800px) {

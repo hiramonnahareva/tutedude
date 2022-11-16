@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Referred = () => {
     return (
         <div className='container'>
-            <p className='UIUX'>UI/UX <RiArrowRightSLine/> <Link to="/Refer&Earn">Refer & Earn</Link> <RiArrowRightSLine/> <Link to="/friendsReferred">Friends Referred</Link></p>
+            <p className='UIUX'>UI/UX <RiArrowRightSLine/> <Link className='link' to="/Refer&Earn">Refer & Earn</Link> <RiArrowRightSLine/> <Link className='link' to="/friendsReferred">Friends Referred</Link></p>
             <div className='goBack'> <BiLeftArrowAlt className='leftArrow'/>go back</div>
         <div className='refrred-container'>
         <div className='Left-tham'>

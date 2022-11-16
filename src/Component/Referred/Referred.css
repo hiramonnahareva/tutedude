@@ -1,7 +1,10 @@
+.link{
+    color: black;
+    text-decoration: none;
+}
 .UIUX{
     display: flex;
     align-items: center;
-    
      height: 40px;
 }
 .goBack{
